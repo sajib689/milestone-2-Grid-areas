@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .box {
+            background-color: aqua;
+            color: black;
+            width: 30%;
+            margin: 30px;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        @media screen and (max-width: 576px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+        impedit quo assumenda sapiente doloribus molestias voluptatem officia
+        laborum, veritatis explicabo.
+      </div>
+      <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+        impedit quo assumenda sapiente doloribus molestias voluptatem officia
+        laborum, veritatis explicabo.
+      </div>
+    </div>
+  </body>
+</html>
